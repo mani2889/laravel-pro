@@ -1,0 +1,21 @@
+{
+  "name": "laravel test",
+  "description": "laravel js library",
+  "main": "bower.json",
+  "authors": [
+    "subramanian <subramanian.k@innoppl.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "lara"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
