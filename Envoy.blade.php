@@ -4,7 +4,7 @@ return "echo '\033[32m" .$message. "\033[0m';\n";
 }
 @endsetup
 
-@servers(['mani' => 'mani'])
+@servers(['laravel' => 'mani'])
 
 <?php
 
@@ -51,7 +51,7 @@ $dateDisplay = $now->format('Y-m-d H:i:s');
 $release = 'release_' . $now->format('YmdHis');
 ?>
 
-@macro('deploy_dev', ['on' => ['dev', 'dev2']])
+@macro('deploy_dev', ['on' => ['laravel']])
 fetch_dev_repo
 run_dev_composer
 update_permissions
